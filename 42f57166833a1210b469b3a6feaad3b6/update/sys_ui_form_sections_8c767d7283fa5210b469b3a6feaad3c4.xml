@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="8c767d7283fa5210b469b3a6feaad3c4" sys_domain="global" table="x_1593190_raas_media" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-03 15:12:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1c76bd7283fa5210b469b3a6feaad312</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1593190_raas_media" name="x_1593190_raas_media" sys_domain="global" view="Default view">8c767d7283fa5210b469b3a6feaad3c4</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1593190_raas_media" sys_domain="global" view="Default view">8f0aa1f283ba5210b469b3a6feaad3bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-03 15:12:17</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-03 15:12:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5876bd7283fa5210b469b3a6feaad313</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1593190_raas_media" name="x_1593190_raas_media" sys_domain="global" view="Default view">8c767d7283fa5210b469b3a6feaad3c4</sys_ui_form>
+            <sys_ui_section caption="Ratings" display_value="Ratings" name="x_1593190_raas_media" sys_domain="global" view="Default view">04767d7283fa5210b469b3a6feaad3c2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-03 15:12:17</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-03 15:12:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d076bd7283fa5210b469b3a6feaad317</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1593190_raas_media" name="x_1593190_raas_media" sys_domain="global" view="Default view">8c767d7283fa5210b469b3a6feaad3c4</sys_ui_form>
+            <sys_ui_section caption="Links" display_value="Links" name="x_1593190_raas_media" sys_domain="global" view="Default view">84767d7283fa5210b469b3a6feaad3c3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-03 15:12:17</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-03 15:12:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dc76bd7283fa5210b469b3a6feaad31a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1593190_raas_media" name="x_1593190_raas_media" sys_domain="global" view="Default view">8c767d7283fa5210b469b3a6feaad3c4</sys_ui_form>
+            <sys_ui_section caption="Language And Country" display_value="Language And Country" name="x_1593190_raas_media" sys_domain="global" view="Default view">c0767d7283fa5210b469b3a6feaad3c4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-03 15:12:17</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1593190_raas_media</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-03 15:12:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8c767d7283fa5210b469b3a6feaad3c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1593190_raas_media</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="RaaS" source="x_1593190_raas">42f57166833a1210b469b3a6feaad3b6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="RaaS">42f57166833a1210b469b3a6feaad3b6</sys_scope>
+            <sys_update_name>sys_ui_form_sections_8c767d7283fa5210b469b3a6feaad3c4</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-03 15:12:16</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

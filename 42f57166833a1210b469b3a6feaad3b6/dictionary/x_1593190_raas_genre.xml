@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5587517e833a5210b469b3a6feaad378" label="Genre" max_length="40" name="x_1593190_raas_genre" type="collection">
+        <element display="true" label="Name" mandatory="true" max_length="250" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+    </element>
+</database>
