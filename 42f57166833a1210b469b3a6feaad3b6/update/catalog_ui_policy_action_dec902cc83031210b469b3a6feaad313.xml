@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Media Review">6677b573833e1210b469b3a6feaad336</catalog_item>
+        <catalog_variable>IO:d0268e8883031210b469b3a6feaad31a</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>200</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 13:49:36</sys_created_on>
+        <sys_id>dec902cc83031210b469b3a6feaad313</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>synopsis</sys_name>
+        <sys_package display_value="RaaS - Ilwel" source="x_1593190_raas">42f57166833a1210b469b3a6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Ilwel">42f57166833a1210b469b3a6feaad3b6</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_dec902cc83031210b469b3a6feaad313</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 13:49:36</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Read Only And Visible">9249428c83031210b469b3a6feaad38e</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>synopsis</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=dec902cc83031210b469b3a6feaad313"/>
+</record_update>
