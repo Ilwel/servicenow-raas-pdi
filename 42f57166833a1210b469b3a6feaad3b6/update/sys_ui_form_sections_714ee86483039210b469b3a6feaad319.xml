@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="714ee86483039210b469b3a6feaad319" sys_domain="global" table="x_1593190_raas_review" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-08 20:26:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3d4ee86483039210b469b3a6feaad31c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1593190_raas_review" name="x_1593190_raas_review" sys_domain="global" view="Default view">714ee86483039210b469b3a6feaad319</sys_ui_form>
+            <sys_ui_section caption="Review" display_value="Review" name="x_1593190_raas_review" sys_domain="global" view="Default view">b54ea86483039210b469b3a6feaad3a4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-08 20:26:21</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1593190_raas_review</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-08 20:26:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>714ee86483039210b469b3a6feaad319</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1593190_raas_review</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="RaaS - Ilwel" source="x_1593190_raas">42f57166833a1210b469b3a6feaad3b6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="RaaS - Ilwel">42f57166833a1210b469b3a6feaad3b6</sys_scope>
+            <sys_update_name>sys_ui_form_sections_714ee86483039210b469b3a6feaad319</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-08 20:26:21</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
