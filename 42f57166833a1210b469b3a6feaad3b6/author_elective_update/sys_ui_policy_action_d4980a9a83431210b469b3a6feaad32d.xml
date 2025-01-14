@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>category</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 13:30:12</sys_created_on>
+        <sys_id>d4980a9a83431210b469b3a6feaad32d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>category</sys_name>
+        <sys_package display_value="RaaS - Ilwel" source="x_1593190_raas">42f57166833a1210b469b3a6feaad3b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Ilwel">42f57166833a1210b469b3a6feaad3b6</sys_scope>
+        <sys_update_name>sys_ui_policy_action_d4980a9a83431210b469b3a6feaad32d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 13:30:12</sys_updated_on>
+        <table>x_1593190_raas_media</table>
+        <ui_policy display_value="Read Only if Completed">fbf7ce5a83431210b469b3a6feaad350</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=d4980a9a83431210b469b3a6feaad32d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RaaS - Ilwel">42f57166833a1210b469b3a6feaad3b6</application>
+        <file_path/>
+        <instance_id>61a4e6d3dbbc4698ebdd2a59139619ae</instance_id>
+        <instance_name>dev241594</instance_name>
+        <name>sys_ui_policy_action_d4980a9a83431210b469b3a6feaad32d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>category</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-14 13:30:12</sys_created_on><sys_id>d4980a9a83431210b469b3a6feaad32d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>category</sys_name><sys_package display_value="RaaS - Ilwel" source="x_1593190_raas">42f57166833a1210b469b3a6feaad3b6</sys_package><sys_policy/><sys_scope display_value="RaaS - Ilwel">42f57166833a1210b469b3a6feaad3b6</sys_scope><sys_update_name>sys_ui_policy_action_d4980a9a83431210b469b3a6feaad32d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-14 13:30:12</sys_updated_on><table>x_1593190_raas_media</table><ui_policy display_value="Read Only if Completed">fbf7ce5a83431210b469b3a6feaad350</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=d4980a9a83431210b469b3a6feaad32d"/></record_update>]]></payload>
+        <payload_hash>-846970652</payload_hash>
+        <record_name>category</record_name>
+        <reverted_from/>
+        <source>575aa8f783321210b469b3a6feaad367</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 13:30:12</sys_created_on>
+        <sys_id>10980e9a83431210b469b3a6feaad383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1946501ecff0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 13:30:12</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>54980a9a10431210f59416c4f36d742f</update_guid>
+        <update_guid_history>54980a9a10431210f59416c4f36d742f:-846970652</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 13:31:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>610d91a1fe2c4394b10c6a37f69a2ba4</sys_id>
+        <sys_metadata>d4980a9a83431210b469b3a6feaad32d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>category</sys_name>
+        <sys_package display_value="RaaS - Ilwel" source="x_1593190_raas">42f57166833a1210b469b3a6feaad3b6</sys_package>
+        <sys_parent display_value="Read Only if Completed">fbf7ce5a83431210b469b3a6feaad350</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Ilwel">42f57166833a1210b469b3a6feaad3b6</sys_scope>
+        <sys_scope_delete display_value="">0d081811373e41248151d3cbb5655ea4</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_d4980a9a83431210b469b3a6feaad32d</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_d4980a9a83431210b469b3a6feaad32d">10980e9a83431210b469b3a6feaad383</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 13:31:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
