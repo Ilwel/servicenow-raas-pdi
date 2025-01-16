@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1593190_raas.RaasReviewQualifier</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>RaasReviewQualifier</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var RaasReviewQualifier = Class.create();
+RaasReviewQualifier.prototype = {
+    initialize: function() {
+    },
+
+	canReview:function(){
+		var grMediaReviews = new GlideRecord("x_1593190_raas_review");
+		grMediaReviews.addQuery("media", current.getUniqueValue());
+		grMediaReviews.query();
+		var hasUserReview = false;
+		while(grMediaReview.next()){
+			if(grMediaReviews.getValue("sys_created_by") == gs.getUserID() && grMediaReviews.getValue("state").toString() == "4"){
+				hasUserReview = true;
+			}
+		}
+		if(hasUserReview && current.state.toString() == "3") return current;
+	},
+
+    type: 'RaasReviewQualifier'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-16 17:32:38</sys_created_on>
+        <sys_id>223ecd0383c7d210b469b3a6feaad36e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>RaasReviewQualifier</sys_name>
+        <sys_package display_value="RaaS - Ilwel" source="x_1593190_raas">42f57166833a1210b469b3a6feaad3b6</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="RaaS - Ilwel">42f57166833a1210b469b3a6feaad3b6</sys_scope>
+        <sys_update_name>sys_script_include_223ecd0383c7d210b469b3a6feaad36e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-16 17:39:35</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="DELETE">
+        <id>223ecd0383c7d210b469b3a6feaad36e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-16 17:32:37</sys_created_on>
+        <sys_id>3e33198f8387d210b469b3a6feaad38b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-16 17:32:37</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RaaS - Ilwel">42f57166833a1210b469b3a6feaad3b6</application>
+        <file_path/>
+        <instance_id>61a4e6d3dbbc4698ebdd2a59139619ae</instance_id>
+        <instance_name>dev241594</instance_name>
+        <name>sys_script_include_223ecd0383c7d210b469b3a6feaad36e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1593190_raas.RaasReviewQualifier&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;RaasReviewQualifier&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var RaasReviewQualifier = Class.create();
+RaasReviewQualifier.prototype = {
+    initialize: function() {
+    },
+
+	canReview:function(){
+		var grMediaReviews = new GlideRecord("x_1593190_raas_review");
+		grMediaReviews.addQuery("media", current.getUniqueValue());
+		grMediaReviews.query();
+		var hasUserReview = false;
+		while(grMediaReview.next()){
+			if(grMediaReviews.getValue("sys_created_by") == gs.getUserID() &amp;&amp; grMediaReviews.getValue("state").toString() == "4"){
+				hasUserReview = true;
+			}
+		}
+		if(hasUserReview &amp;&amp; current.state.toString() == "3") return current;
+	},
+
+    type: 'RaasReviewQualifier'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-16 17:32:38&lt;/sys_created_on&gt;&lt;sys_id&gt;223ecd0383c7d210b469b3a6feaad36e&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;RaasReviewQualifier&lt;/sys_name&gt;&lt;sys_package display_value="RaaS - Ilwel" source="x_1593190_raas"&gt;42f57166833a1210b469b3a6feaad3b6&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="RaaS - Ilwel"&gt;42f57166833a1210b469b3a6feaad3b6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_223ecd0383c7d210b469b3a6feaad36e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-16 17:39:35&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;223ecd0383c7d210b469b3a6feaad36e&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-16 17:32:37&lt;/sys_created_on&gt;&lt;sys_id&gt;3e33198f8387d210b469b3a6feaad38b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-16 17:32:37&lt;/sys_updated_on&gt;&lt;table&gt;sys_script_include&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-194159167</payload_hash>
+        <record_name>RaasReviewQualifier</record_name>
+        <reverted_from/>
+        <source>575aa8f783321210b469b3a6feaad367</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-16 17:39:35</sys_created_on>
+        <sys_id>78d4914b83c7d210b469b3a6feaad392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1947032f7540000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-16 17:39:35</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>3cd4914bc2c7d2102107f7bcf0db6991</update_guid>
+        <update_guid_history>3cd4914bc2c7d2102107f7bcf0db6991:-194159167,5733d587dbc7d2106b686049f266b5a7:-662305445</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-16 18:25:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>35991ad2ca35413a96b38c685f892204</sys_id>
+        <sys_metadata>223ecd0383c7d210b469b3a6feaad36e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>RaasReviewQualifier</sys_name>
+        <sys_package display_value="RaaS - Ilwel" source="x_1593190_raas">42f57166833a1210b469b3a6feaad3b6</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="RaaS - Ilwel">42f57166833a1210b469b3a6feaad3b6</sys_scope>
+        <sys_scope_delete display_value="">0d081811373e41248151d3cbb5655ea4</sys_scope_delete>
+        <sys_update_name>sys_script_include_223ecd0383c7d210b469b3a6feaad36e</sys_update_name>
+        <sys_update_version display_value="sys_script_include_223ecd0383c7d210b469b3a6feaad36e">78d4914b83c7d210b469b3a6feaad392</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-16 18:25:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

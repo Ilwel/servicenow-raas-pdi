@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="duplicate_reference" label="Duplicate Reference" language="en" table="x_1593190_raas_media">
+    <sys_documentation element="original_reference" label="Original Reference" language="en" table="x_1593190_raas_media">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>duplicate_reference</element>
+            <element>original_reference</element>
             <help/>
             <hint/>
-            <label>Duplicate Reference</label>
+            <label>Original Reference</label>
             <language>en</language>
             <name>x_1593190_raas_media</name>
-            <plural/>
+            <plural>Original References</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-15 17:14:40</sys_created_on>
-            <sys_mod_count>3</sys_mod_count>
-            <sys_name>Duplicate Reference</sys_name>
+            <sys_created_on>2025-01-16 14:10:15</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Original Reference</sys_name>
             <sys_package display_value="RaaS - Ilwel" source="x_1593190_raas">42f57166833a1210b469b3a6feaad3b6</sys_package>
             <sys_policy/>
             <sys_scope display_value="RaaS - Ilwel">42f57166833a1210b469b3a6feaad3b6</sys_scope>
-            <sys_update_name>sys_documentation_x_1593190_raas_media_duplicate_reference_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_1593190_raas_media_original_reference_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-15 17:14:41</sys_updated_on>
+            <sys_updated_on>2025-01-16 14:10:15</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

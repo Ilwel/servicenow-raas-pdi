@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="6a0aa1f283ba5210b469b3a6feaad374" label="Media" max_length="40" name="x_1593190_raas_media" type="collection">
-        <element label="Duplicate Reference" max_length="32" name="duplicate_reference" reference="x_1593190_raas_media" type="reference"/>
         <element label="Release Year" max_length="4" name="release_year" type="string"/>
         <element label="Awards" max_length="250" name="awards" type="string"/>
         <element label="Writers" max_length="4000" name="writers" type="string"/>
@@ -27,8 +26,9 @@
                 <element inactive_on_update="false" label="Completed" sequence="1" value="3"/>
             </choice>
         </element>
-        <element display="true" label="Title" mandatory="true" max_length="250" name="title" type="string"/>
+        <element display="true" label="Title" max_length="250" name="title" type="string"/>
         <element label="Integration Error Message" max_length="1000" name="integration_error_message" type="string"/>
+        <element label="Original Reference" max_length="32" name="original_reference" reference="x_1593190_raas_media" type="reference"/>
         <element choice="1" default="1" label="Integration State" max_length="40" name="integration_state" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Integrated" sequence="3" value="3"/>
@@ -42,7 +42,7 @@
         <element label="Website" max_length="4000" name="website" type="url"/>
         <element label="Synopsis" max_length="4000" name="synopsis" type="string"/>
         <index name="index">
-            <element name="duplicate_reference"/>
+            <element name="original_reference"/>
         </index>
     </element>
 </database>
